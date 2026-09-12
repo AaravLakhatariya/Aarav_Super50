@@ -9,10 +9,6 @@ void main()
     printf("\n enter name ::");
     gets(name);
 
-    // for(i=0;name[i]!='\0';i++)    {
-    //     printf("\n char = %c",name[i]);
-    // }
-
     for(i=0;name[i]!='\0';i++){
         len++;
     }
