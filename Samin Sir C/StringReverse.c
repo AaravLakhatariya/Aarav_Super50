@@ -18,7 +18,7 @@ void main()
     for(i=len-1;i>=0;i--){
 
     
-        printf("\n The reverse = %c",name[i]);
+        printf("\n The revcerse = %c",name[i]);
 
         revname[j] = name[i];
         j++;
