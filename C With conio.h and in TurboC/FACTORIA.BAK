@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+int factorial(int num);
+void main()
+{
+	int num, result;
+	clrscr();
+
+	printf("\nEnter a Number : ");
+	scanf("%d",&num);
+
+	result = factorial(num);
+
+	printf("\nFactorial of %d : %d",num,result);
+
+	getch();
+
+}//end of main
+
+int factorial(int num)
+{
+	if(num == 0)
+	{
+		return 1;
+
+	}//end of if
+
+	return num * factorial(num - 1);
+
+}//end of factorial

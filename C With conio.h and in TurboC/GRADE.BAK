@@ -1,0 +1,43 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{       int a,b,c,d,sum,percet;
+
+
+	clrscr();
+		printf("Enter marks of Maths :");
+		scanf("%d",&a);
+		printf("Enter marks of Science :");
+		scanf("%d",&b);
+		printf("Enter marks of English :");
+		scanf("%d",&c);
+		printf("Enter marks of Computer :");
+		scanf("%d",&d);
+		sum = a + b + c + d;
+		percet = sum / 4;
+		printf("\nTotal Marks is : %d",sum);
+		printf("\nTotal Precentage is : %d",percet);
+
+
+			if (percet > 90){
+				printf("You got A Grade!!");
+			}
+			else if(percet > 80){
+				printf("You got B Grade!");
+			}
+			else if(percet > 70){
+				printf("You got C Grade");
+			}
+			else if(percet > 60){
+				printf("You got D Grade");
+			}
+			else if(percet > 50){
+				printf("You got E Grade");
+			}
+			else {
+				printf("You are Fail!!!");
+			}
+
+
+	getch();
+}

@@ -1,0 +1,83 @@
+#include<stdio.h>
+#include<conio.h>
+void main() {
+	int boxX=40,boxY=20,candyY=2,candyX=43,lifeline=3,score=0,d;
+	char ch;
+	start:
+	clrscr();
+	textcolor(CYAN);
+	gotoxy(60,2);
+	cprintf("Score=%d",score);
+	gotoxy(60,3);
+	cprintf("Lifeline=%d",lifeline);
+	textcolor(rand());
+	gotoxy(candyX+15,candyY);
+	cprintf("0");
+	gotoxy(candyX-15,candyY);
+	cprintf("0");
+	gotoxy(candyX,candyY);
+	cprintf("0");
+	textcolor(CYAN);
+	gotoxy(boxX,boxY);
+	cprintf("#");
+	gotoxy(boxX+7,boxY);
+	cprintf("#");
+	gotoxy(boxX,boxY+1);
+	cprintf("########");
+		if(kbhit()){
+			ch=getch();
+			switch(ch){
+				case 'a':if(boxX>1){
+					 boxX--;
+					 }
+					 break;
+				case 'A':if(boxX>1){
+					 boxX--;
+					 }
+					 break;
+				case 'd':if(boxX<73){
+					 boxX++;
+					 }
+					 break;
+				case 'D':if(boxX<73){
+					 boxX++;
+					 }
+					 break;
+				case 'x':exit(0);
+				case 'X':exit(0);
+			}//end of switch
+		}//end of if
+	candyY++;
+	if(candyY==20){
+
+	d=candyX-boxX;
+	if(d>=1 & d<=6)
+		{
+		sound(50);
+		delay(200);
+		nosound();
+		score++;
+		}
+	else{
+		sound(50);
+		delay(200);
+		nosound();
+		lifeline--;
+		if(lifeline==0){
+			clrscr();
+			textcolor(RED);
+			cprintf("Game Over!!");
+			exit(0);
+		sound(50);
+		delay(20000000);
+		nosound();
+		}
+	   }
+	 candyY=1;
+	 candyX=rand()%47+1;
+	 candyY=rand()%18-1
+	}
+	delay(250);
+	goto start;
+
+}//end of main

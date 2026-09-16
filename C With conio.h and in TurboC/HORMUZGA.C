@@ -1,0 +1,23 @@
+/*
+
+				Name: Aarav Lakhatariya
+				DOC: 15th September 2026
+				Email: aaravlakhatariya@gmail.com
+				Objective: To make a game on Strait Of Hormuz
+
+	*  *    *  *
+	 *        * -->Boat with Crude Oil || if it steps on landmine by Iran for Donald Trump
+	  ********
+*/
+#include<stdio.h>
+#include<conio.h>
+void main() {
+
+	clrscr();
+	textbackground(RED);
+	gotoxy(40,13);
+	printf("*  *    *  *");
+
+
+	getch();
+}//end of main

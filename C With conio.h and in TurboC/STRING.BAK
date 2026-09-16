@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main() {
+	char str1[30];
+	char str2[30];
+	char str3[30];
+	clrscr();
+	printf("Enter 1st string: ");
+	gets(str1);
+	printf("\nEnter 2nd string: ");
+	gets(str2);
+	printf("\nThe 1st string is: %s",str1);
+	printf("\nThe 2nd string is: %s",str2);
+	printf("\nThe length of 1st string is: %d",strlen(str1));
+	strcat(str1,str2);
+	printf("\nThe new str1 is: %s",str1);
+	getch();
+}//end of main

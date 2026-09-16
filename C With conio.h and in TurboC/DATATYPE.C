@@ -1,0 +1,55 @@
+/*
+				Author: Aarav
+				DOC: 10h September 2026
+				Objective: Data Types
+
+*/
+#include<stdio.h>
+#include<conio.h>
+void main(){
+	int a,b,c ;
+	char l,m,n;
+	float x,y,z;
+	double d,e,f;
+	long int h,i,j;
+	clrscr();
+		printf("Enter a Integer: ");
+		scanf("%d",&a);
+		printf("Enter a Integer: ");
+		scanf("%d",&b);
+		printf("Enter a Integer: ");
+		scanf("%d",&c);
+		printf("Enter a Float: ");
+		scanf("%f",&x);
+		printf("Enter a Float: ");
+		scanf("%f",&y);
+		printf("Enter a Float: ");
+		scanf("%f",&z);
+		printf("Enter a Double: ");
+		scanf("%lf",&d);
+		printf("Enter a Double: ");
+		scanf("%lf",&e);
+		printf("Enter a Double: ");
+		scanf("%lf",&f);
+		printf("Enter a Long Integer: ");
+		scanf("%ld",&h);
+		printf("\nEnter a Long Integer: ");
+		scanf("%ld",&i);
+		printf("\nEnter a Long Integer: ");
+		scanf("%ld",&j);
+		printf("\nEnter a Character: ");
+		scanf(" %c",&l);
+		printf("\nEnter a Character: ");
+		scanf(" %c",&m);
+		printf("\nEnter a Character: ");
+		scanf(" %c",&n);
+	clrscr();
+		printf("\nThe Integer is:%d\t%d\t%d ",a,b,c);
+		printf("\nThe Character is:%c\t%c\t%c",l,m,n);
+		printf("\nThe Float is:%.3f\t%.3f\t%.3f",x,y,z);
+		printf("\nThe Double is:%lf\t%lf\t%lf",h,i,j);
+		printf("\nThe Long Integer is:%ld\t%ld\t%ld",d,e,f);
+
+
+	getch();
+}//end of main

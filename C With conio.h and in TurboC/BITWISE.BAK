@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+void main() {
+	clrscr();
+	printf("%d", 10 << 2); // 101000
+			     // 111
+			     // 111
+
+
+	getch();
+}//end of main

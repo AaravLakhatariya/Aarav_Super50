@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{       int a,b;
+	clrscr();
+		printf("Enter both nos. :");
+		scanf("%d",&a,&b);
+
+			if (a>b){
+				printf("A is Greater");
+			}
+			else {
+				printf("B is Greater");
+			}
+
+
+	getch();
+}

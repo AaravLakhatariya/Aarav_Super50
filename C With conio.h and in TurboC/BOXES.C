@@ -1,0 +1,48 @@
+/*
+				Author-:Aarav Lakhatariya
+				DOC:- 4th sept 2026
+				Objective:- 3 box and 3 candy
+				Email:-aaravlakahatariya@gmail.com
+*/
+#include<stdio.h>
+#include<conio.h>
+void main() {
+	clrscr();
+		gotoxy(15,1);
+		textcolor(RED);
+		cprintf("0");
+		textcolor(BLUE);
+		gotoxy(40,1);
+		cprintf("0");
+		textcolor(GREEN);
+		gotoxy(65,1);
+		cprintf("0");
+		textcolor(CYAN);
+		gotoxy(12,22);
+		cprintf("#");
+		textcolor(CYAN);
+		gotoxy(12,23);
+		cprintf("#######");
+		textcolor(CYAN);
+		gotoxy(18,22);
+		cprintf("#");
+		textcolor(BROWN);
+		gotoxy(37,22);
+		cprintf("#");
+		textcolor(BROWN);
+		gotoxy(37,23);
+		cprintf("#######");
+		textcolor(BROWN);
+		gotoxy(43,22);
+		cprintf("#");
+		textcolor(YELLOW);
+		gotoxy(62,22);
+		cprintf("#");
+		textcolor(YELLOW);
+		gotoxy(62,23);
+		cprintf("#######");
+		textcolor(YELLOW);
+		gotoxy(68,22);
+		cprintf("#");
+	getch();
+}//end of main

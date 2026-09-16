@@ -1,0 +1,390 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+
+       int choice,plate,amount,guj,punj,raj,sou,chi,mex,iti,fast,bev,ice;
+       clrscr();
+	       printf("------------------------------------HOTEL MENU----------------------------------");
+	       printf("\n1 -- Gujarati Dish");
+	       printf("\n2 -- Punjabi Dish");
+	       printf("\n3 -- Rajeshthani Dish");
+	       printf("\n4 -- South Indian ");
+	       printf("\n5 -- Chinese");
+	       printf("\n6 -- Mexcian ");
+	       printf("\n7 -- Itilian");
+	       printf("\n8 -- Fast Food");
+	       printf("\n9 -- Beverages");
+	       printf("\n10 -- Ice-Cream");
+	       printf("\n11 -- Exit");
+	       printf("\nEnter your choice:");
+	       scanf("%d",&choice);
+
+	       switch(choice)
+	       {
+		    case 1: clrscr();
+			    printf("\nYou Selected Gujarati Dish!!");
+			    printf("\n1 -- Gujarati Thali");
+			    printf("\n2 -- Jalebi");
+			    printf("\n3 -- Fafda");
+			    printf("\nEnter Your Choice:");
+			    scanf("%d",&guj);
+
+			    switch(guj)
+			    {
+				 case 1: clrscr();
+					 printf("\nYou selected Gujarati Thali");
+					 printf("\nEnter the amount of thali: ");
+					 scanf("%d",&plate);
+					 amount = plate * 110;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+
+				 case 2: clrscr();
+					 printf("\nYou selected Jalebi");
+					 printf("\nEnter the amount of plate: ");
+					 scanf("%d",&plate);
+					 amount = plate * 50;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+
+				 case 3: clrscr();
+					 printf("\nYou selected Fafda");
+					 printf("\nEnter the amount of plate: ");
+					 scanf("%d",&plate);
+					 amount = plate * 60;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+			    }//ent of guj
+			    break;
+
+		    case 2: clrscr();
+			    printf("\nYou Selected Punjabi DIsh!!");
+			    printf("\n1 -- Punjabi thali");
+			    printf("\n2 -- Cheese Butter Masala");
+			    printf("\n3 -- Tandoori Roti");
+			    printf("\nEnter Your Choice :");
+			    scanf("%d",&punj);
+
+			    switch(punj)
+			    {
+				 case 1: clrscr();
+					 printf("\nYou selected Punjabi Thali");
+					 printf("\nEnter the amount of thali: ");
+					 scanf("%d",&plate);
+					 amount = plate * 150;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+
+				 case 2: clrscr();
+					 printf("\nYou select Cheese Butter Masala ");
+					 printf("\nEnter the amount of plate: ");
+					 scanf("%d",&plate);
+					 amount = plate * 250;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+
+				 case 3: clrscr();
+					 printf("\nYou selected Tandoori Roti");
+					 printf("\nEnter the amount of plate: ");
+					 scanf("%d",&plate);
+					 amount = plate * 20;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+			    }//end of punj
+			    break;
+
+		    case 3: clrscr();
+			    printf("\nYou Selected Rajeshtani Dish!!");
+			    printf("\n1 -- Dal Bati Churma");
+			    printf("\n2 -- Kalmi Vada");
+			    printf("\n3 -- Gatte Ki Sabzi");
+			    printf("\nEnter Your choice: ");
+			    scanf("%d",&raj);
+
+			    switch(raj)
+			    {
+				 case 1: clrscr();
+					 printf("\nYou selected Dal Bati Churma");
+					 printf("\nEnter the amount of plate: ");
+					 scanf("%d",&plate);
+					 amount = plate * 200;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+
+				 case 2: clrscr();
+					 printf("\nYou selected Kalmi Vada");
+					 printf("\nEnter the amount of plate: ");
+					 scanf("%d",&plate);
+					 amount = plate * 150;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+
+				 case 3: clrscr();
+					 printf("\nYou selected Gatte Ki Sabzi");
+					 printf("\nEnter the amount of plate: ");
+					 scanf("%d",&plate);
+					 amount = plate * 100;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+			    }//end of raj
+			    break;
+
+		    case 4: clrscr();
+			    printf("You Selected South Indian!!");
+			    printf("\n1 -- Dosa");
+			    printf("\n2 -- Idli");
+			    printf("\n3 -- Mendu Vada");
+			    printf("\nEnter Your Choice :");
+			    scanf("%d",&sou);
+
+			    switch(sou)
+			    {
+				 case 1: clrscr();
+					 printf("\nYou selected Dosa");
+					 printf("\nEnter the amount of plate: ");
+					 scanf("%d",&plate);
+					 amount = plate * 80;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+
+				 case 2: clrscr();
+					 printf("\nYou selected Idli");
+					 printf("\nEnter the amount of plate: ");
+					 scanf("%d",&plate);
+					 amount = plate * 50;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+
+				 case 3: clrscr();
+					 printf("\nYou selected Mendu Vada");
+					 printf("\nEnter the amount of plate: ");
+					 scanf("%d",&plate);
+					 amount = plate * 90;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+			    }//end of sou
+			    break;
+
+		    case 5: clrscr();
+			    printf("You selected Chinese!!");
+			    printf("\n1 -- Manchurian Dry");
+			    printf("\n2 -- Manchurian Gravy");
+			    printf("\n3 -- Hakka Noodles");
+			    printf("\nEnter Your Choice:");
+			    scanf("%d",&chi);
+
+			    switch(chi)
+			    {
+				 case 1: clrscr();
+					 printf("\nYou selected Munchurian Dry");
+					 printf("\nEnter the amount of plate: ");
+					 scanf("%d",&plate);
+					 amount = plate * 100;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+
+				 case 2: clrscr();
+					 printf("\nYou selected Munchrian Gravy");
+					 printf("\nEnter the amount of plate: ");
+					 scanf("%d",&plate);
+					 amount = plate * 150;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+
+				 case 3: clrscr();
+					 printf("\nYou selected Hakka Noodles");
+					 printf("\nEnter the amount of plate: ");
+					 scanf("%d",&plate);
+					 amount = plate * 120;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+			    }//end of chi
+			    break;
+
+		    case 6: clrscr();
+			    printf("You Selected Mexician!!");
+			    printf("\n1 -- Taco");
+			    printf("\n2 -- Quesidilla");
+			    printf("\n3 -- Burrito");
+			    printf("\nEnter Your Choice :");
+			    scanf("%d",mex);
+
+			    switch(mex)
+			    {
+				 case 1: clrscr();
+					 printf("\nYou selected Taco");
+					 printf("\nEnter the amount of plate: ");
+					 scanf("%d",&plate);
+					 amount = plate * 150;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+
+				 case 2: clrscr();
+					 printf("\nYou selected Quesidilla");
+					 printf("\nEnter the amount of plate: ");
+					 scanf("%d",&plate);
+					 amount = plate * 150;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+
+				 case 3: clrscr();
+					 printf("\nYou selected Burrito");
+					 printf("\nEnter the amount of plate: ");
+					 scanf("%d",&plate);
+					 amount = plate * 200;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+			    }//end of mex
+			    break;
+
+		    case 7: clrscr();
+			    printf("You Selected Itilian!!");
+			    printf("\n1 -- Pizza");
+			    printf("\n2 -- Pasta");
+			    printf("\n3 -- Risitto");
+			    printf("\nEnter Your Choice :");
+			    scanf("%d",&iti);
+
+			    switch(iti)
+			    {
+				 case 1: clrscr();
+					 printf("\nYou selected Pizza");
+					 printf("\nEnter the amount of plate: ");
+					 scanf("%d",&plate);
+					 amount = plate * 150;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+
+				 case 2: clrscr();
+					 printf("\nYou selected Pasta");
+					 printf("\nEnter the amount of plate: ");
+					 scanf("%d",&plate);
+					 amount = plate * 120;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+
+				 case 3: clrscr();
+					 printf("\nYou selected Risitto");
+					 printf("\nEnter the amount of plate: ");
+					 scanf("%d",&plate);
+					 amount = plate * 200;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+			    }//end of iti
+			    break;
+
+		    case 8: clrscr();
+			    printf("You Selected Fast Food!!");
+			    printf("\n1 -- Burger");
+			    printf("\n2 -- Frankie");
+			    printf("\n3 -- Momos");
+			    printf("\nEnter You choice");
+			    scanf("%d",&fast);
+
+			    switch(fast)
+			    {
+				 case 1: clrscr();
+					 printf("\nYou selected Burger");
+					 printf("\nEnter the amount of plate: ");
+					 scanf("%d",&plate);
+					 amount = plate * 80;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+
+				 case 2: clrscr();
+					 printf("\nYou selected Frankie");
+					 printf("\nEnter the amount of plate: ");
+					 scanf("%d",&plate);
+					 amount = plate * 100;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+
+				 case 3: clrscr();
+					 printf("\nYou selected Momos");
+					 printf("\nEnter the amount of plate: ");
+					 scanf("%d",&plate);
+					 amount = plate * 150;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+			    }//end of fast
+			    break;
+
+		    case 9: clrscr();
+			    printf("You Selected Bevrages!!");
+			    printf("\n1 -- Coffee");
+			    printf("\n2 -- Tea");
+			    printf("\n3 -- Chocolate Shake");
+			    printf("\nEnte Your Choice :");
+			    scanf("%d",&bev);
+
+			    switch(bev)
+			    {
+				 case 1: clrscr();
+					 printf("\nYou selected Coffee");
+					 printf("\nEnter the number of cup: ");
+					 scanf("%d",&plate);
+					 amount = plate * 70;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+
+				 case 2: clrscr();
+					 printf("\nYou selected Tea");
+					 printf("\nEnter the number of cup: ");
+					 scanf("%d",&plate);
+					 amount = plate * 20;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+
+				 case 3: clrscr();
+					 printf("\nYou selected Chocolate Shake");
+					 printf("\nEnter the number of cup: ");
+					 scanf("%d",&plate);
+					 amount = plate * 100;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+			    }//end of bev
+			    break;
+		    case 10: clrscr();
+			     printf("You Selected Ice-Cream!!");
+			     printf("\n1 -- Vanilla");
+			     printf("\n2 -- Chocolate");
+			     printf("\n3 -- Choco Brownie");
+			     printf("\nEnter Your choice :");
+			     scanf("%d",&ice);
+
+			     switch(ice)
+			     {
+				 case 1: clrscr();
+					 printf("\nYou selected Vanilla");
+					 printf("\nEnter the amount of cup: ");
+					 scanf("%d",&plate);
+					 amount = plate * 20;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+
+				 case 2: clrscr();
+					 printf("\nYou selected Chocolate");
+					 printf("\nEnter the amount of cup: ");
+					 scanf("%d",&plate);
+					 amount = plate * 35;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+
+				 case 3: clrscr();
+					 printf("\nYou selected Choco Brownie");
+					 printf("\nEnter the amount of cup: ");
+					 scanf("%d",&plate);
+					 amount = plate * 50;
+					 printf("\n Total Bill Is :  %d",amount);
+					 break;
+			     }//end of ice
+			     break;
+		    case 11: clrscr();
+			     exit(0);
+			     break;
+	       }//end of choice
+
+
+       getch();
+}

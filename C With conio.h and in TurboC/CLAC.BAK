@@ -1,0 +1,55 @@
+/*
+
+			Author: Aarav
+			DOC: 14th August 2026
+			Objective: Make a calculator
+
+*/
+#include<stdio.h>
+#include<conio.h>
+void main() {
+	int a,b,c,choice;
+	start:
+	clrscr();
+	printf("\n1------Addition");
+	printf("\n2------Subtraction");
+	printf("\n3------Multiplication");
+	printf("\n4------Division");
+	printf("\n1------Module");
+	printf("\n6------Exit");
+	printf("\nEnter your choice: ");
+	scanf("%d",&choice);
+		switch(choice){
+			case 1: printf("Enter no A and B: ");
+				scanf("%d",&a);
+				printf("\nEnter no B : ");
+				scanf("%d",&b);
+				c = a+b;
+				printf("%d + %d = %d",a,b,c);
+				break;
+			case 2: printf("Enter no A and B: ");
+				scanf("%d%d",&a,&b);
+				c = a-b;
+				printf("%d - %d = %d",a,b,c);
+				break;
+			case 3: printf("Enter no A and B: ");
+				scanf("%d%d",&a,&b);
+				c = a*b;
+				printf("%d * %d = %d",a,b,c);
+				break;
+			case 4: printf("Enter no A and B: ");
+				scanf("%d%d",&a,&b);
+				c = a/b;
+				printf("%d / %d = %d",a,b,c);
+				break;
+			case 5: printf("Enter no A and B: ");
+				scanf("%d%d",&a,&b);
+				c = a%b;
+				printf("%d module %d = %d",a,b,c);
+				break;
+			case 6: exit(0);
+			default: printf("Invalid Choice!!!");
+		}//end of choice
+	getch();
+	goto start;
+}//end of main

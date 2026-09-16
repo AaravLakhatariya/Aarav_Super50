@@ -1,0 +1,226 @@
+/*
+		Author: Aarav Lakhatariya
+		Date: 10 th August 2026
+		Task: To print Letters at 4 corners with differernt soundqa
+*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	clrscr();
+		textcolor(1);
+		gotoxy(1,1);
+		sound(100);
+		delay(200);
+		nosound();
+
+		cprintf("R");
+		textcolor(2);
+		gotoxy(2,1);
+		sound(200);
+		delay(200);
+		nosound();
+
+		cprintf("o");
+		textcolor(3);
+		gotoxy(3,1);
+		sound(300);
+		delay(200);
+		nosound();
+
+		cprintf("y");
+		textcolor(4);
+		gotoxy(4,1);
+		sound(400);
+		delay(200);
+		nosound();
+
+		cprintf("a");
+		textcolor(5);
+		gotoxy(5,1);
+		sound(500);
+		delay(200);
+		nosound();
+
+		cprintf("l");
+		textcolor(6);
+		gotoxy(70,1);
+		sound(600);
+		delay(200);
+		nosound();
+
+		cprintf("T");
+		textcolor(7);
+		gotoxy(71,1);
+		sound(650);
+		delay(200);
+		nosound();
+
+		cprintf("e");
+		textcolor(8);
+		gotoxy(72,1);
+		sound(700);
+		delay(200);
+		nosound();
+
+		cprintf("c");
+		textcolor(9);
+		gotoxy(73,1);
+		sound(750);
+		delay(200);
+		nosound();
+
+		cprintf("h");
+		textcolor(10);
+		gotoxy(74,1);
+		sound(800);
+		delay(200);
+		nosound();
+
+		cprintf("n");
+		textcolor(11);
+		gotoxy(75,1);
+		sound(850);
+		delay(200);
+		nosound();
+
+		cprintf("o");
+		textcolor(12);
+		gotoxy(76,1);
+		sound(900);
+		delay(200);
+		nosound();
+
+		cprintf("s");
+		textcolor(13);
+		gotoxy(77,1);
+		sound(950);
+		delay(200);
+		nosound();
+
+		cprintf("o");
+		textcolor(14);
+		gotoxy(78,1);
+		sound(1000);
+		delay(200);
+		nosound();
+
+		cprintf("f");
+		textcolor(15);
+		gotoxy(79,1);
+		sound(50);
+		delay(200);
+		nosound();
+
+		cprintf("t");
+		textcolor(1);
+		gotoxy(1,25);
+		sound(100);
+		delay(200);
+		nosound();
+
+		cprintf("P");
+		textcolor(2);
+		gotoxy(2,25);
+		sound(150);
+		delay(200);
+		nosound();
+
+		cprintf("V");
+		textcolor(3);
+		gotoxy(3,25);
+		sound(200);
+		delay(200);
+		nosound();
+
+		cprintf("T");
+		textcolor(4);
+		gotoxy(77,25);
+		sound(250);
+		delay(200);
+		nosound();
+
+		cprintf("L");
+		textcolor(5);
+		gotoxy(78,25);
+		sound(300);
+		delay(200);
+		nosound();
+
+		cprintf("T");
+		textcolor(6);
+		gotoxy(79,25);
+		sound(350);
+		delay(200);
+		nosound();
+
+		cprintf("D");
+		textcolor(7);
+		gotoxy(36,13);
+		sound(400);
+		delay(200);
+		nosound();
+
+		cprintf("E");
+		textcolor(8);
+		gotoxy(37,13);
+		sound(450);
+		delay(200);
+		nosound();
+
+		cprintf("d");
+		textcolor(9);
+		sound(500);
+		delay(200);
+		nosound();
+
+		cprintf("u");
+		textcolor(10);
+		gotoxy(39,13);
+		sound(550);
+		delay(200);
+		nosound();
+
+		cprintf("c");
+		textcolor(11);
+		gotoxy(40,13);
+		sound(600);
+		delay(200);
+		nosound();
+
+		cprintf("a");
+		textcolor(12);
+		gotoxy(41,13);
+		sound(650);
+		delay(200);
+		nosound();
+
+		cprintf("t");
+		textcolor(13);
+		gotoxy(42,13);
+		sound(700);
+		delay(200);
+		nosound();
+
+		cprintf("i");
+		textcolor(14);
+		gotoxy(43,13);
+		sound(750);
+		delay(200);
+		nosound();
+
+		cprintf("o");
+		textcolor(15);
+		gotoxy(44,13);
+		sound(800);
+		delay(200);
+		nosound();
+
+		cprintf("n");
+
+
+
+
+
+	getch();
+}//end of main

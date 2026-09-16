@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{       char ch='a';
+	int i,j;
+	clrscr();
+	for(j=1;j<=80;j++){
+	for(i=0;i<26;i++){
+	sound(2*i*j);
+	delay(9);
+	nosound();
+	gotoxy(j,i+1);
+	textcolor(i);
+	cprintf("%c",ch+i);
+      }
+   }
+
+
+
+	getch();
+}
